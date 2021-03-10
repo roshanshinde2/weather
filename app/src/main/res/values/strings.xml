@@ -9,4 +9,10 @@
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    //weather
+    <string name="weather_api_key">d40328863b05cee19c1175edea05ecc5</string>
+    <string name="fetch_weather">Fetch Weather</string>
+
+
 </resources>
