@@ -24,6 +24,11 @@ class HomeScreenActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
+        /*setContentView(layout.activity_main)
+        setupViewModel()
+        setupUI()
+        setupObservers()*/
+
         val model: HomeScreenViewModel = ViewModelProvider(this).get(HomeScreenViewModel::class.java)
 
         setContentView(R.layout.activity_homescreen)
